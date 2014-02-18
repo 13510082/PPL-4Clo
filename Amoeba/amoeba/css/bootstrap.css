@@ -1688,10 +1688,11 @@ output {
 }
 .form-control {
   display: block;
-  width: 100%;
+  width: 20%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
+  font-alignment: center;
   line-height: 1.428571429;
   color: #555;
   background-color: #fff;
