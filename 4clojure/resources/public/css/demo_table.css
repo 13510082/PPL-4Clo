@@ -37,8 +37,6 @@
    clear: both;
    _height: 302px;
    zoom: 1; /* Feeling sorry for IE */
-   background-color: #BF8B47;
-   
 }
 
 .dataTables_processing {
@@ -54,7 +52,7 @@
    text-align: center;
    color: #999;
    font-size: 14px;
-   background-color: #BF8B47;
+   background-color: white;
 }
 
 .dataTables_length {
@@ -116,8 +114,7 @@
 table.display {
    margin: 0 auto;
    clear: both;
-   width: 10%;
-   //background-color: #BF8B47
+   width: 100%;
 
         /* Note Firefox 3.5 and before have a bug with border-collapse
          * ( https://bugzilla.mozilla.org/show%5Fbug.cgi?id=155955 )
@@ -135,18 +132,16 @@ table.display {
 
 table.display thead th {
    padding: 3px 18px 3px 10px;
-   //border-bottom: 1px solid black;
+   border-bottom: 1px solid black;
    font-weight: bold;
    cursor: pointer;
    * cursor: hand;
-   //background-color: #BF8B47
 }
 
 table.display tfoot th {
    padding: 3px 18px 3px 10px;
-   //border-top: 1px solid black;
+   border-top: 1px solid black;
    font-weight: bold;
-   
 }
 
 table.display tr.heading2 td {
@@ -228,7 +223,7 @@ table.display tr.even.gradeU {
 
 
 tr.odd {
-   background-color: white;
+   background-color: #E2E4FF;
 }
 
 tr.even {
@@ -543,6 +538,6 @@ div.box {
    height: 100px;
    padding: 10px;
    overflow: auto;
-   //border: 1px solid #8080FF;
-   background-color: #BF8B47;
+   border: 1px solid #8080FF;
+   background-color: #E5E5FF;
 }
